@@ -69,17 +69,23 @@ An **interactive Excel dashboard** was developed, supported by pivot tables and 
 
 ## 📂 Repository Content  
 
-- **data/**  
-  - `Marketing_Campaign_Performance.xlsx` → Main Excel file with raw data, prep data, pivots, KPIs, and dashboard.  
-  - `Reshaped_Data.xlsx` → Long-format product category dataset created in Python.  
-  - `Marketing_Channel.xlsx` → Long-format channel dataset created in Python.  
+- **Marketing_Campaign_Performance.xlsx**  
+  Main Excel file containing:  
+  - `Raw_Data` → Original dataset.  
+  - `Prep_Data` → Cleaned dataset with derived fields (Age, Age Groups, Income Groups, etc.).  
+  - `Product_Category` → Long-format product data (reshaped using Python).  
+  - `Channels` → Long-format channel data (reshaped using Python).  
+  - `Pivot_Tables` → Supporting pivot tables used for analysis.  
+  - `KPIs` → Calculated KPI values.  
+  - `Dashboard` → Final interactive Excel dashboard.  
 
 - **notebooks/**  
-  - `data_preparation.ipynb` → Jupyter Notebook for reshaping product and channel data (Python + pandas).  
+  - `data_preparation.ipynb` → Jupyter Notebook used to reshape product and channel data into long format (exported back into the Excel file).  
 
 - **images/**  
   - `dashboard.png` → Screenshot of the finalized Excel dashboard.  
 
 - **README.md**  
-  - Executive summary, problem statement, solution, details, key insights, and recommended actions.  
+  - Executive summary (overview, problem, solution, details, actions), project insights, and repo structure.  
+
 
